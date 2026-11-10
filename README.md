@@ -33,3 +33,14 @@ Các đầu ra đã thấy: bộ CAD SolidWorks (assembly/part/STEP), 26 bản v
 - [Tài liệu BẢN VẼ LẮP RÁP](https://docs.google.com/document/d/1-xck_Gq65nhjGl2bz79CEh4zQG6qQDT_/edit)
 
 **Lưu ý cho agent:** tài liệu bên dưới là *snapshot handoff*, không phải bằng chứng mọi nguồn gốc đều đã được chép vào repo. Nếu nguồn chưa có quyền truy cập, báo BLOCKED thay vì đoán.
+
+
+## Đã đưa trực tiếp lên GitHub (xác minh ngày 2026-11-10)
+
+- [Mã nguồn Arduino ESP32](firmware/esp32_ibt2_controller.ino), [sơ đồ SVG](firmware/) và [app Expo](app/expo-motor-controller/) (**21 file cleaned**).
+- [Chín nguồn Drive](sources/GITHUB_IMPORTED_FILES.md): bản SV02 sơ bộ, điện, treo, tấm sàn, kế hoạch/BOM.
+- [Bốn nguồn bổ sung từ file Zalo](sources/ADDITIONAL_GITHUB_IMPORTS.md): Word trình tự lắp, ảnh tóm tắt xe thật, hai ứng viên part SolidWorks.
+- [Prompt chuyển giao agent](docs/AGENT_START_PROMPT.md) và [các Issue nhiệm vụ](https://github.com/ngokiet1412-web/CNOTO/issues).
+- [Hướng dẫn nhập CAD gốc bằng Git LFS](docs/LOCAL_CAD_IMPORT.md) — nguyên ZIP lớn và các file còn thiếu **chưa ở GitHub**.
+
+**Cảnh báo:** code đã được import nhưng chưa biên dịch/kiểm thử; các source SV02 tháng 10 chưa phải bản theo xe RC mua thật.

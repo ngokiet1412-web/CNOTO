@@ -15,3 +15,9 @@ Most large binary ZIP archives (including the 147.9MB main CAD package and 157.6
 
 ## Warning to agents
 **Don't use these nine files to infer that the old 2×JGA25 direct drive model was built.** Always cross-check the purchased RC car evidence and conflicts in `docs/DECISIONS_AND_CONFLICTS.md`.
+
+## Compressed review PDFs included (not originals)
+
+- [26 assembly drawing pages BTL.001–BTL.026](assembly/BTL_001-026_LIGHT_REVIEW_85dpi.pdf) — 26-page **85 dpi raster review derivative** of `FILE LỎ TẠM.pdf`; original 12.46MB remains outside GitHub. Use original for precision/legibility.
+- [16 pages of real RC car photos](real_photos/XE_RC_ANH_THUC_TE_REVIEW_110dpi.pdf) — **110 dpi raster review derivative** of Google Doc `cnoto` (18 photos), originally a 62.12MB PDF export; original remains accessible through Drive.
+- These images provide visual assembly context, NOT dimensioned CAD, precise hole coordinates or approval of physical assembly.

@@ -21,4 +21,4 @@
 | BTL_CNOTO_7_STEP_KIEM_TRA_CHUA_LAP_GHEP.step | 53802315 | `23b853b29dc1c25163a59e42efc4b0445938fbdfeac92cd3d0a941e058557053` | Synthetic staging only, not correct vehicle assembly |
 
 ## GitHub repository inclusion
-`README.md`, `AGENTS.md`, docs, source index and issue tracker are the **verified, native GitHub handoff** after creation. Original large ZIPs and the physical-photo PDF remain **EXTERNAL / NOT COMMITTED**. Source code is awaiting safe cleanup before commit. Do not confuse Drive access with in-repo availability.
+`README.md`, `AGENTS.md`, docs, source index and issue tracker are the **verified, native GitHub handoff** after creation. Original large ZIPs and the physical-photo PDF remain **EXTERNAL / NOT COMMITTED**. **21 cleaned firmware/app/source/wiring files are committed** under `firmware/` and `app/expo-motor-controller/`; the original large source ZIP stays external. Do not confuse Drive access with in-repo availability.

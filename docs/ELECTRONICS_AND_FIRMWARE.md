@@ -20,5 +20,5 @@ No compiled/bench-tested firmware, actual wiring continuity, motor current, inst
 - Clamp servo travel and limit motor power before any powered assembly test.
 - Correct speed/odometer calculation only after encoder placement and pulse-per-wheel-turn ratio are validated.
 
-## Source import required
-The cleaned original firmware and Expo app have not been committed by this initial context handoff. A cleaned bundle can be placed in `firmware/` and `app/` by an assigned agent. Do not misrepresent a component summary as the source code itself.
+## Source import completed (2026-11-10)
+21 cleaned source files have been committed under `firmware/` and `app/expo-motor-controller/`: one Arduino `.ino`, 11 React Native TypeScript/TSX files, configuration and package-lock, 4 wiring SVG diagrams, and the source README. Vendor `node_modules`, macOS metadata and Expo caches were excluded. The placeholder AP password differs from the source ZIP. This code is **not yet compiled/bench-tested**; verify it on a safe bench setup before hardware operation. See `sources/CODE_IMPORT_MANIFEST.md`.

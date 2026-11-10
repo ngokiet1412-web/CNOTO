@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "ESP32 Motor RC",
+    "slug": "expo-motor-controller",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.esp32.motorcontroller",
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "Ứng dụng cần kết nối mạng cục bộ để gửi tín hiệu điều khiển tới mạch ESP32 (192.168.4.1).",
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true,
+          "NSAllowsLocalNetworking": true
+        }
+      }
+    },
+    "android": {
+      "package": "com.esp32.motorcontroller"
+    }
+  }
+}

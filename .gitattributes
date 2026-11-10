@@ -1,0 +1,11 @@
+# Keep engineering binary files explicit in diffs
+*.SLDPRT binary
+*.SLDASM binary
+*.sldprt binary
+*.sldasm binary
+*.step binary
+*.stp binary
+*.dwg binary
+*.pdf binary
+*.docx binary
+*.xlsx binary

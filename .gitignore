@@ -1,0 +1,26 @@
+# Built artifacts/dependencies
+node_modules/
+.expo/
+dist/
+build/
+coverage/
+*.log
+__MACOSX/
+.DS_Store
+._*
+**/~$*
+*.tmp
+*.bak
+# credentials/personal info
+.env
+.env.*
+!.env.example
+*secret*
+*credentials*
+# bulky original archives and unreviewed photos should not be automatically added
+*.zip
+*.rar
+*.7z
+*.mp4
+*.mov
+# retain reviewed CAD with Git LFS when authorized
